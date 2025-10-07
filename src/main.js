@@ -13,3 +13,8 @@ captureButton.addEventListener("click", async() => {
     downloadButton.href = imageURL;
     downloadButton.download = 'image.png'
 })
+
+window.onload = () => {
+    downloadButton.classList.add('hide')
+    previewContainer.innerHTML = ''
+}
