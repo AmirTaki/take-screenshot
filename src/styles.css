@@ -9,3 +9,13 @@ body {
   padding: 1em;
   background-color: #0075ff;
 }
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+.wrapper img {
+  max-width: 100%;
+}
