@@ -6,7 +6,7 @@ const downloadButton = document.querySelector('#download-button')
 captureButton.addEventListener("click", async() => {
     downloadButton.classList.remove('hide')
     const canvas = await html2canvas(container)
-    const imageURL = canvas.toDataRUL();
+    const imageURL = canvas.toDataURL()
     previewContainer.innerHTML = `
     <img src = ${imageURL} id = 'image' />`
 
