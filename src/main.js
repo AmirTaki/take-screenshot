@@ -9,4 +9,7 @@ captureButton.addEventListener("click", async() => {
     const imageURL = canvas.toDataRUL();
     previewContainer.innerHTML = `
     <img src = ${imageURL} id = 'image' />`
+
+    downloadButton.href = imageURL;
+    downloadButton.download = 'image.png'
 })
