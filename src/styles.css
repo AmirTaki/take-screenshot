@@ -31,3 +31,26 @@ body {
   color: #606060;
   text-align: justify;
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+button,
+a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  border-radius: 0.5em;
+  color: #000000;
+  text-decoration: none;
+}
+.hide {
+  display: none;
+}
